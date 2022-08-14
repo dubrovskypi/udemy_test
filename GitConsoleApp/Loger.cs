@@ -6,4 +6,9 @@ public class Loger : ILoger
     {
         Console.WriteLine(message);
     }
+
+    public void Log2(string message)
+    {
+        Console.WriteLine(message);
+    }
 }
